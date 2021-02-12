@@ -5,4 +5,5 @@
 * Node JS
 * Express JS
 * MongoDB
+* Mongoose
 * Few Third party Node package
