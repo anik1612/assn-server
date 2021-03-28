@@ -320,7 +320,7 @@ router.delete('/education/:edu_id', auth, async (req, res) => {
             .map(item => item.id)
             .indexOf(req.params.edu_id);
 
-        profile.experience.splice(removeIndex, 1);
+        profile.education.splice(removeIndex, 1);
 
         await profile.save();
 
